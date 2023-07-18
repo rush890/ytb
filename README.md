@@ -1,7 +1,7 @@
 # Topics
 
-[Linux / Mac](https://github.com/MShawon/YouTube-Viewer#linux--mac)  
-&ensp;&emsp;[Installation](https://github.com/MShawon/YouTube-Viewer#installation-1)  
+[Linux / Mac](https://github.com/rush890/ytb#installation)  
+&ensp;&emsp;[Installation](https://github.com/rush890/ytb#installation)  
 &ensp;&emsp;[Usage](https://github.com/MShawon/YouTube-Viewer#usage)  
 
 
@@ -172,9 +172,7 @@
   ```
   pip3 install -r requirements.txt
   ```
-        ```
         python3 youtube_viewer.py
-        ```
    * Rest is self explanatory.
  
  # Best Practices
