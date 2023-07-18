@@ -174,6 +174,14 @@
   ```
         python3 youtube_viewer.py
    * Rest is self explanatory.
+
+
+ ```
+  python3 -m pip install --upgrade pip wheel
+  pip3 install "setuptools<59"
+  pip3 install -r requirements.txt
+  python3 youtube_viewer.py
+```
  
  # Best Practices
   To get the most out of this script you should maintain these things.
