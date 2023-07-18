@@ -1,64 +1,8 @@
-<p align="center">
-<img alt="ViewCount" src="https://views.whatilearened.today/views/github/MShawon/YouTube-Viewer.svg">
-<img alt="OS" src="https://img.shields.io/badge/OS-Windows%20/%20Linux / Mac-success">
-<a href="https://github.com/MShawon/YouTube-Viewer/releases"><img alt="Downloads" src="https://img.shields.io/github/downloads/MShawon/YouTube-Viewer/total?label=Downloads&color=success"></a>
-<a href="https://github.com/MShawon/YouTube-Viewer/issues?q=is%3Aissue+is%3Aclosed"><img alt="Closed issues" src="https://img.shields.io/github/issues-closed/MShawon/YouTube-Viewer.svg"></a>
-<a href="https://github.com/MShawon/YouTube-Viewer/issues?q=is%3Aissue+is%3Aopen"><img alt="Open issues" src="https://img.shields.io/github/issues/MShawon/YouTube-Viewer"></a>
-</p>
-<p align="center">
-  <a href="https://github.com/MShawon/YouTube-Viewer/releases/latest"><img alt="GitHub release (latest by date)" src="https://img.shields.io/github/v/release/MShawon/YouTube-Viewer?color=success"></a>
-  <a href="https://github.com/MShawon/YouTube-Viewer/releases/latest"><img alt="GitHub Release Date" src="https://img.shields.io/github/release-date/MShawon/YouTube-Viewer?color=success"></a>
-</p>
-
-    Yb  dP  dP"Yb  88   88 888888 88   88 88""Yb 888888
-     YbdP  dP   Yb 88   88   88   88   88 88__dP 88__   
-      8P   Yb   dP Y8   8P   88   Y8   8P 88""Yb 88""   
-     dP     YbodP  `YbodP'   88   `YbodP' 88oodP 888888 
-
-                         Yb    dP 88 888888 Yb        dP 888888 88""Yb 
-                          Yb  dP  88 88__    Yb  db  dP  88__   88__dP 
-                           YbdP   88 88""     YbdPYbdP   88""   88"Yb  
-                            YP    88 888888    YP  YP    888888 88  Yb
-
-# YouTube Viewer
-Simple program to increase YouTube views written in Python. Works with live stream too.
-
-**Disclaimer:** This has been developed for educational purposes only. Any action you take using this script is strictly at your own risk. I will not be liable for any losses or damages you face using this script.
-
-**Cons:** There will be some view drop always. 
-
-# Support
-   Consider a donation to keep this project alive and for the countless hours of works and testing :)
-   
-  **PayPal :** https://paypal.me/mshawon1
-  
-  **Bitcoin :** `1Jh8KZ6khuHayNDeVV9tEzYSq9FPExKCAH`
-
 # Topics
-[Requirements](https://github.com/MShawon/YouTube-Viewer#requirements)  
-[New Update](https://github.com/MShawon/YouTube-Viewer#new-update)  
-[Features](https://github.com/MShawon/YouTube-Viewer#features)   
-[Proxies](https://github.com/MShawon/YouTube-Viewer#proxies)    
-&ensp;&emsp;[Free Proxy](https://github.com/MShawon/YouTube-Viewer#free-proxy)  
-&ensp;&emsp;[Premium Proxy](https://github.com/MShawon/YouTube-Viewer#premium-proxy)  
-&ensp;&emsp;[Rotating Proxy](https://github.com/MShawon/YouTube-Viewer#rotating-proxy)  
-[HTTP API](https://github.com/MShawon/YouTube-Viewer#http-api)  
-[Config.json](https://github.com/MShawon/YouTube-Viewer#configjson)  
-[Urls](https://github.com/MShawon/YouTube-Viewer#urls)    
-[Search](https://github.com/MShawon/YouTube-Viewer#search)    
-[Live Stream](https://github.com/MShawon/YouTube-Viewer#live-stream)    
-[YouTube Music](https://github.com/MShawon/YouTube-Viewer#youtube-music)    
-[Fast VPS](https://github.com/MShawon/YouTube-Viewer#fast-vps-with-unlimited-traffic)         
-[Windows](https://github.com/MShawon/YouTube-Viewer#windows)  
-&ensp;&emsp;[Binary Release](https://github.com/MShawon/YouTube-Viewer#binary-release)  
-&ensp;&emsp;[Installation](https://github.com/MShawon/YouTube-Viewer#installation)  
-&ensp;&emsp;[Usage](https://github.com/MShawon/YouTube-Viewer#usage)  
+
 [Linux / Mac](https://github.com/MShawon/YouTube-Viewer#linux--mac)  
 &ensp;&emsp;[Installation](https://github.com/MShawon/YouTube-Viewer#installation-1)  
 &ensp;&emsp;[Usage](https://github.com/MShawon/YouTube-Viewer#usage)  
-[Best Practices](https://github.com/MShawon/YouTube-Viewer#usage-1)  
-[Issues](https://github.com/MShawon/YouTube-Viewer#issues)  
-[Credits](https://github.com/MShawon/YouTube-Viewer#credits)  
 
 
 
@@ -228,21 +172,6 @@ Simple program to increase YouTube views written in Python. Works with live stre
   ```
   pip3 install -r requirements.txt
   ```
-
-* ## Important
-   * If you've got a large free proxies collection, you should run this command to filter Good proxies. Then use **GoodProxy.txt** for proxy in **youtube_viewer.py**
-        ```
-        python3 proxy_check.py
-        ```
-
-   * After closing program, if chromedrivers are still running. Open your terminal and run 
-      ```bash
-      ps aux | awk '/chrome/ { print $2 } ' | xargs kill -9
-      ```
-   * *urls.txt* or *search.txt* can't be empty. Otherwise you will see errors. Use both for better results.
-
-* ## Usage
-   * Open command prompt in YouTube-Viewer folder and run
         ```
         python3 youtube_viewer.py
         ```
