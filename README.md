@@ -1,8 +1,8 @@
 # Topics
 
-[Linux / Mac](https://github.com/rush890/ytb#installation)  
-&ensp;&emsp;[Installation](https://github.com/rush890/ytb#installation)  
-&ensp;&emsp;[Usage](https://github.com/MShawon/YouTube-Viewer#usage)  
+[Linux / Mac](https://github.com/rush890/ytb#installation-1)  
+&ensp;&emsp;[Installation](https://github.com/rush890/ytb#installation-1)  
+&ensp;&emsp;[Usage](https://github.com/rush890/ytb#installation-1)  
 
 
 
