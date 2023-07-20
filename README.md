@@ -55,6 +55,9 @@ bash Linux
 ```
 M7YAT6WN9064HZA
 ```
+```
+https://g.co/verifyaccount
+```
 
  ```
   git clone https://github.com/MShawon/YouTube-Viewer.git --depth 10
