@@ -12,14 +12,17 @@ sudo apt update
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 sudo dpkg -i google-chrome-stable_current_amd64.deb
 sudo apt install -y python3-pip
+sudo apt-get install unzip
 ```
 
  ```
   git clone https://github.com/rush890/ytb.git --depth 10
   cd ytb
+  sudo apt-get install unzip
   python3 -m pip install --upgrade pip wheel
   pip3 install "setuptools<59"
   pip3 install -r requirements.txt
+  unzip -j chromedriver-linux64.zip
   python3 youtube_viewer.py
 ```
 Old Shell
@@ -34,11 +37,13 @@ sudo apt update
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 sudo dpkg -i google-chrome-stable_current_amd64.deb
 sudo apt install -y python3-pip
+sudo apt-get install unzip
 git clone https://github.com/rush890/ytb.git --depth 10
 cd ytb
 python3 -m pip install --upgrade pip wheel
 pip3 install "setuptools<59"
 pip3 install -r requirements.txt
+unzip -j chromedriver-linux64.zip
 python3 youtube_viewer.py
 ```
 
@@ -60,11 +65,14 @@ https://g.co/verifyaccount
 ```
 
  ```
+  sudo apt-get install unzip
   git clone https://github.com/MShawon/YouTube-Viewer.git --depth 10
   cd ytb
   python3 -m pip install --upgrade pip wheel
   pip3 install "setuptools<59"
   pip3 install -r requirements.txt
+
+  unzip -j chromedriver-linux64.zip
   python3 youtube_viewer.py
 ```
  
