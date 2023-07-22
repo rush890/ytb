@@ -19,10 +19,11 @@ sudo apt-get install unzip
   git clone https://github.com/rush890/ytb.git --depth 10
   cd ytb
   sudo apt-get install unzip
+  unzip -j chromedriver-linux64.zip
   python3 -m pip install --upgrade pip wheel
   pip3 install "setuptools<59"
   pip3 install -r requirements.txt
-  unzip -j chromedriver-linux64.zip
+  unzip -j -o  chromedriver-linux64.zip
   python3 youtube_viewer.py
 ```
 Old Shell
@@ -40,10 +41,11 @@ sudo apt install -y python3-pip
 sudo apt-get install unzip
 git clone https://github.com/rush890/ytb.git --depth 10
 cd ytb
+unzip -j chromedriver-linux64.zip
 python3 -m pip install --upgrade pip wheel
 pip3 install "setuptools<59"
 pip3 install -r requirements.txt
-unzip -j chromedriver-linux64.zip
+unzip -j -o  chromedriver-linux64.zip
 python3 youtube_viewer.py
 ```
 
@@ -73,6 +75,7 @@ https://g.co/verifyaccount
   pip3 install -r requirements.txt
 
   unzip -j chromedriver-linux64.zip
+  unzip -j -o  chromedriver-linux64.zip
   python3 youtube_viewer.py
 ```
  
