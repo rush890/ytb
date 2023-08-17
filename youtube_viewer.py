@@ -114,8 +114,8 @@ width = 0
 viewports = ['2560,1440', '1920,1080', '1440,900',
              '1536,864', '1366,768', '1280,1024', '1024,768']
 
-referers = ['https://search.yahoo.com/', 'https://duckduckgo.com/', 'https://www.google.com/',
-            'https://www.bing.com/', 'https://t.co/', '']
+referers = ['https://twitter.com/', 'https://www.snapchat.com/', 'https://www.threads.net/',
+            'https://www.instagram.com/', 'https://pinterest.com/','https://www.linkedin.com/','https://www.facebook.com/', '']
 
 referers = choices(referers, k=len(referers)*3)
 
